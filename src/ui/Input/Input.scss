@@ -1,0 +1,25 @@
+.input {
+	max-width: 100%;
+	padding: fluid(20, 15);
+	background-color: var(--color-dark-02);
+	color: var(--color-white);
+	border: 1px solid var(--color-dark-02);
+	font-size: 12px;
+	font-weight: 600;
+	outline: none;
+
+	&::placeholder {
+		color: var(--color-white-transparent);
+	}
+
+	&:hover {
+		border: var(--border);
+		background-color: var(--color-orange-transparent-02);
+	}
+
+	&:focus-visible {
+		border: var(--border);
+		background-color: var(--color-orange-transparent-02);
+		caret-color: var(--color-white);
+	}
+}
