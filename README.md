@@ -1,16 +1,67 @@
-# React + Vite
+````markdown
+# Fonte
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Fonte — веб-приложение инвестиционной платформы, созданное для демонстрации интерфейсов, архитектуры и рабочих подходов к построению современных frontend-проектов.
 
-Currently, two official plugins are available:
+Проект разработан как SPA-приложение с использованием современного JavaScript-стека и инструментов сборки.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## Стек технологий
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React 19
+- React DOM 19
+- React Router 7
+- Vite 7
+- Sass (SCSS)
+- PostCSS
+- ESLint
+- Prettier
+- Stylelint
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Установка и запуск
+
+### Установка зависимостей
+
+npm install
+````
+
+### Запуск проекта в режиме разработки
+
+```bash
+npm run dev
+
+После запуска приложение будет доступно по адресу, отображаемому в терминале (обычно http://localhost:5173).
+
+---
+
+## Сборка проекта
+
+### Сборка для продакшена
+
+npm run build
+
+### Предпросмотр production-сборки
+
+npm run preview
+
+---
+
+## Структура проекта
+
+src/
+  assets/        # Изображения, иконки, шрифты
+  components/    # Переиспользуемые UI-компоненты
+  modules/       # Сценовые модули и секции страниц
+  pages/         # Страницы приложения
+  styles/        # Глобальные стили
+  mocks/         # Моковые данные
+
+---
+
+## Разработчики
+
+* Артём Соколов
+* Миронов Кирилл
