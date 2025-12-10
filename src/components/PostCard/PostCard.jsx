@@ -1,49 +1,43 @@
-import './PostCard.scss'
+import "./PostCard.scss";
 import classNames from "classnames";
-import IconArrowLink from '@/assets/icons/arrowLink.svg?react'
+import IconArrowLink from "@/assets/icons/arrowLink.svg?react";
 
 const PostCard = ({
-                    className = "",
-                    theme,
-                    image,
-                    title,
-                    date,
-                    text,
-                    onSlider = false
-                  }) => {
-
+  className = "",
+  theme,
+  image,
+  title,
+  date,
+  text,
+  onSlider = false,
+}) => {
   return (
     <article
-      className={classNames('card', className, {
-        'on-slider': onSlider
+      className={classNames("card", className, {
+        "on-slider": onSlider,
       })}
     >
-      <img
-        className="card__image"
-        src={image}
-        alt={title}
-      />
-      {onSlider
-        ? <div className="card__content">
-          <h3 className='h4'>{title}</h3>
-          <a
-            className='card__link'
-            href="/"
-          >Подробнее <IconArrowLink /></a>
+      <img className="card__image" src={image} alt={title} />
+      {onSlider ? (
+        <div className="card__content">
+          <h3 className="h4">{title}</h3>
+          <a className="card__link" href="/">
+            Подробнее <IconArrowLink />
+          </a>
         </div>
-        : <div className="card__content">
+      ) : (
+        <div className="card__content">
           <span>{theme}</span>
-          <h3 className='h4'>{title}</h3>
+          <h3 className="h4">{title}</h3>
           <span>{date}</span>
           <p className="card__text">{text}</p>
-          <a
-            className='card__link'
-            href="/"
-          >Подробнее <IconArrowLink /></a>
+          <a className="card__link" href="/">
+            Подробнее <IconArrowLink />
+          </a>
         </div>
-      }
+      )}
     </article>
-  )
-}
+  );
+};
 
-export default PostCard
+export default PostCard;
