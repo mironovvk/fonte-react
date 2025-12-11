@@ -1,0 +1,47 @@
+.section {
+  display: flex;
+  flex-direction: column;
+  gap: fluid(40, 30);
+
+  &__header {
+    &-title {
+      position: relative;
+      display: inline-block;
+
+      &::after {
+        content: '';
+        position: absolute;
+        right: -19px;
+        bottom: fluid(40, 25);
+        width: 34px;
+        height: 12px;
+        background: var(--color-orange);
+        clip-path: polygon(100% 0, 0 100%, 100% 100%);
+      }
+    }
+  }
+
+  &__line {
+    position: relative;
+    width: 100%;
+
+    svg {
+      position: absolute;
+      top: 0;
+      width: 2885px;
+      color: var(--color-orange);
+    }
+
+    &--right {
+      svg {
+        right: clamp(47px, calc(#{483px} * (#{1vw} / #{1440px})), 483px);
+      }
+    }
+
+    &--left {
+      svg {
+        left: calc(-1 * clamp(47px, calc(#{483px} * (#{100vw} / #{1440px})), 483px));
+      }
+    }
+  }
+}
