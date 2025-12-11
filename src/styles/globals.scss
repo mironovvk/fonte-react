@@ -75,7 +75,3 @@ svg * {
 :focus-visible {
   @include focus-visible;
 }
-
-section {
-  border-bottom: var(--border);
-}
