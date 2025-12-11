@@ -1,11 +1,7 @@
 import "./BlogPage.scss";
 
 const BlogPage = () => {
-  return (
-    <>
-
-    </>
-  );
+  return <></>;
 };
 
 export default BlogPage;
