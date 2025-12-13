@@ -1,0 +1,22 @@
+node_modules
+dist
+build
+coverage
+.vite
+public
+
+# config / generated
+*.config.js
+*.config.cjs
+vite.config.*
+postcss.config.*
+stylelint.config.*
+
+# assets
+src/assets
+src/**/*.svg
+src/**/*.png
+src/**/*.jpg
+src/**/*.jpeg
+src/**/*.webp
+src/**/*.gif

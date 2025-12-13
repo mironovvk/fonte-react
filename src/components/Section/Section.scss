@@ -9,7 +9,6 @@
       display: inline-block;
 
       &::after {
-        content: '';
         position: absolute;
         right: -19px;
         bottom: fluid(40, 25);
@@ -17,6 +16,7 @@
         height: 12px;
         background: var(--color-orange);
         clip-path: polygon(100% 0, 0 100%, 100% 100%);
+        content: "";
       }
     }
   }
@@ -40,7 +40,9 @@
 
     &--left {
       svg {
-        left: calc(-1 * clamp(47px, calc(#{483px} * (#{100vw} / #{1440px})), 483px));
+        left: calc(
+          -1 * clamp(47px, calc(#{483px} * (#{100vw} / #{1440px})), 483px)
+        );
       }
     }
   }

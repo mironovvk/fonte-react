@@ -15,7 +15,7 @@
 }
 
 @mixin flex-center($isInline: false) {
-  @if ($isInline) {
+  @if $isInline {
     display: inline-flex;
   } @else {
     display: flex;
@@ -26,7 +26,7 @@
 }
 
 @mixin focus-visible {
-  outline: 1px dashed currentColor;
+  outline: 1px dashed currentcolor;
   outline-offset: 4px;
   transition-duration: 0s !important;
 }

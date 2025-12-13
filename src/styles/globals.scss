@@ -15,11 +15,11 @@ html {
 body {
   display: flex;
   flex-direction: column;
-  font-family: var(--font-family-base), sans-serif;
+  font-size: 14px;
   color: var(--color-white);
   background-color: var(--color-dark-01);
+  font-family: var(--font-family-base), sans-serif;
   overflow-x: hidden;
-  font-size: 14px;
 }
 
 main {

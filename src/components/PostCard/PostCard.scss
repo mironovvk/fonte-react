@@ -1,8 +1,8 @@
 .card {
-  width: 100%;
   display: flex;
-  align-items: start;
   justify-content: space-between;
+  align-items: start;
+  width: 100%;
   column-gap: 50px;
 
   &.on-slider {
@@ -16,25 +16,24 @@
   }
 
   &__content {
-    font-size: 12px;
-
     display: flex;
     flex-direction: column;
+    font-size: 12px;
     row-gap: 15px;
   }
 
   &__link {
     display: flex;
     align-items: center;
-    column-gap: 5px;
     color: var(--color-orange);
+    column-gap: 5px;
     text-decoration: none;
   }
 
   @include mobile-s {
-    align-items: center;
-    justify-content: center;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     row-gap: 15px;
   }
 }

@@ -1,6 +1,6 @@
 import "@/styles";
 import Footer from "@/components/Footer";
-import {navLinks} from "@/mocks/ nav.mock.js";
+import { navLinks } from "@/mocks/ nav.mock.js";
 
 function App() {
   return (

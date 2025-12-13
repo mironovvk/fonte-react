@@ -1,31 +1,23 @@
 :root {
-  --color-white: #ffffff;
-  --color-white-transparent-01: rgba(255, 255, 255, 0.5);
-
-  --color-black: #000000;
+  --color-white: #fff;
+  --color-white-transparent-01: rgb(255 255 255 / 50%);
+  --color-black: #000;
   --color-dark-01: #1c1c1c;
   --color-dark-02: #141414;
   --color-dark-03: #0a0a0a;
   --color-dark-04: #090808;
-
-  --color-orange: #ff6600;
+  --color-orange: #f60;
   --color-orange-transparent-01: #ff66007f;
   --color-orange-transparent-02: #ff66001a;
-
   --border: 1px solid var(--color-orange);
   --border-radius-l: 10px;
-
   --box-shadow: 0 0 7px var(--color-orange);
-
   --font-family-base: "Montserrat", sans-serif;
-
   --container-padding-x: 16px;
   --container-width: #{fluid-to-laptop(
       $container-desktop-width,
       $container-laptop-width
     )};
-
   --section-padding-y: #{fluid(80, 28)};
-
   --transition-duration: 0.2s;
 }
