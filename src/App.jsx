@@ -1,11 +1,12 @@
 import "@/styles";
 import Footer from "@/components/Footer";
-import { navLinks } from "@/mocks/ nav.mock.js";
+import { navLinks } from "@/mocks/nav.mock.js";
+import Content from "@/components/Content";
 
 function App() {
   return (
     <>
-      <h1>Fonte</h1>
+      <Content />
       <Footer navLinks={navLinks} />
     </>
   );

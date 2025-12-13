@@ -1,6 +1,6 @@
 import "./Footer.scss";
 import LogoFooter from "@/assets/icons/logo/logo-footer.svg?react";
-import { Link } from "react-router";
+import { Link } from "react-router-dom";
 import { socialLinks, legalLinks } from "@/mocks/footer.mock.jsx";
 
 const Footer = ({ navLinks = [] }) => {
@@ -14,9 +14,9 @@ const Footer = ({ navLinks = [] }) => {
           <ul className="footer__list footer__list--nav">
             {navLinks.map(({ id, title, link }) => (
               <li className="footer__item" key={id}>
-                <a className="footer__link" href={`/${link}`}>
+                <Link className="footer__link" to={`/${link}`}>
                   {title}
-                </a>
+                </Link>
               </li>
             ))}
           </ul>
