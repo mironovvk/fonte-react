@@ -1,6 +1,6 @@
 .header {
-  background-color: var(--color-dark-02);
   padding: fluid(40, 30) fluid(121, 30);
+  background-color: var(--color-dark-02);
 
   &__logo {
     position: relative;
@@ -8,7 +8,6 @@
     color: var(--color-white);
 
     &::after {
-      content: '';
       position: absolute;
       right: -16px;
       bottom: 33px;
@@ -16,6 +15,7 @@
       height: 12px;
       background: var(--color-orange);
       clip-path: polygon(100% 0, 0 100%, 100% 100%);
+      content: '';
     }
   }
 
@@ -41,8 +41,8 @@
   }
 
   &__link {
-    text-decoration: none;
     color: var(--color-white-transparent-01);
+    text-decoration: none;
 
     &--social {
       color: var(--color-dark-04);
@@ -50,9 +50,9 @@
   }
 
   &__actions-list {
-	    display: flex;
+    display: flex;
     justify-content: space-between;
     align-items: center;
-	gap: 30px;
+    gap: 30px;
   }
 }

@@ -9,7 +9,6 @@
       display: inline-block;
 
       &::after {
-        content: '';
         position: absolute;
         right: -19px;
         bottom: fluid(40, 25);
@@ -17,6 +16,7 @@
         height: 12px;
         background: var(--color-orange);
         clip-path: polygon(100% 0, 0 100%, 100% 100%);
+        content: '';
       }
     }
   }

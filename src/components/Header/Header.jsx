@@ -26,7 +26,7 @@ const Header = ({ navLinks = [] }) => {
         <div className="header__actions">
           <ul className="header__actions-list">
             <li className="header__actions-item">
-				<Button>Войти</Button>
+              <Button type="button">Войти</Button>
             </li>
           </ul>
         </div>
