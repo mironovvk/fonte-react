@@ -1,20 +1,12 @@
-import "./PostCard.scss";
-import classNames from "classnames";
-import IconArrowLink from "@/assets/icons/arrowLink.svg?react";
+import './PostCard.scss';
+import classNames from 'classnames';
+import IconArrowLink from '@/assets/icons/arrowLink.svg?react';
 
-const PostCard = ({
-  className = "",
-  theme,
-  image,
-  title,
-  date,
-  text,
-  onSlider = false,
-}) => {
+const PostCard = ({ className = '', theme, image, title, date, text, onSlider = false }) => {
   return (
     <article
-      className={classNames("card", className, {
-        "on-slider": onSlider,
+      className={classNames('card', className, {
+        'on-slider': onSlider,
       })}
     >
       <img className="card__image" src={image} alt={title} />

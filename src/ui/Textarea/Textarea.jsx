@@ -1,10 +1,10 @@
-import "./Textarea.scss";
-import classNames from "classnames";
+import './Textarea.scss';
+import classNames from 'classnames';
 
 const Textarea = ({ className, ...props }) => {
   return (
     <div className="textarea__container">
-      <textarea className={classNames("textarea", className)} {...props} />
+      <textarea className={classNames('textarea', className)} {...props} />
     </div>
   );
 };

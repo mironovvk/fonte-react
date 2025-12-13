@@ -1,11 +1,9 @@
-import "./Section.scss";
-import IconSectionLineRight from "@/assets/icons/section_line/sectionLineRigth.svg?react";
-import IconSectionLineLeft from "@/assets/icons/section_line/sectionLineleft.svg?react";
+import './Section.scss';
+import IconSectionLineRight from '@/assets/icons/section_line/sectionLineRigth.svg?react';
+import IconSectionLineLeft from '@/assets/icons/section_line/sectionLineleft.svg?react';
 
 const Section = ({ title, children, hasLine, directionLineRight }) => {
-  const LineIcon = directionLineRight
-    ? IconSectionLineRight
-    : IconSectionLineLeft;
+  const LineIcon = directionLineRight ? IconSectionLineRight : IconSectionLineLeft;
 
   return (
     <section className="section container">
@@ -17,8 +15,8 @@ const Section = ({ title, children, hasLine, directionLineRight }) => {
       <span
         className={
           directionLineRight
-            ? "section__line section__line--right"
-            : "section__line section__line--left"
+            ? 'section__line section__line--right'
+            : 'section__line section__line--left'
         }
       >
         {hasLine && <LineIcon />}

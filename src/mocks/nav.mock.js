@@ -1,27 +1,27 @@
 export const navLinks = [
   {
     id: 1,
-    title: "О нас",
-    link: "about",
+    title: 'О нас',
+    link: 'about',
   },
   {
     id: 2,
-    title: "Команда",
-    link: "team",
+    title: 'Команда',
+    link: 'team',
   },
   {
     id: 3,
-    title: "Блог",
-    link: "blog",
+    title: 'Блог',
+    link: 'blog',
   },
   {
     id: 4,
-    title: "Продукты",
-    link: "products",
+    title: 'Продукты',
+    link: 'products',
   },
   {
     id: 5,
-    title: "Контакты",
-    link: "contacts",
+    title: 'Контакты',
+    link: 'contacts',
   },
 ];

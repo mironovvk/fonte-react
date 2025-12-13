@@ -1,6 +1,6 @@
-import "./Content.scss";
-import { Routes, Route } from "react-router-dom";
-import BlogPage from "@/pages/BlogPage/index.js";
+import './Content.scss';
+import { Routes, Route } from 'react-router-dom';
+import BlogPage from '@/pages/BlogPage/index.js';
 
 const Content = () => {
   return (

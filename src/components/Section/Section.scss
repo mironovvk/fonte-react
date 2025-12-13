@@ -9,7 +9,7 @@
       display: inline-block;
 
       &::after {
-        content: "";
+        content: '';
         position: absolute;
         right: -19px;
         bottom: fluid(40, 25);
@@ -40,9 +40,7 @@
 
     &--left {
       svg {
-        left: calc(
-          -1 * clamp(47px, calc(#{483px} * (#{100vw} / #{1440px})), 483px)
-        );
+        left: calc(-1 * clamp(47px, calc(#{483px} * (#{100vw} / #{1440px})), 483px));
       }
     }
   }
