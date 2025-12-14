@@ -1,11 +1,7 @@
-import './ProductPage.scss'
+import './ProductPage.scss';
 
 const ProductPage = () => {
-  return (
-    <>
+  return <></>;
+};
 
-    </>
-  )
-}
-
-export default ProductPage
+export default ProductPage;
