@@ -1,8 +1,8 @@
 import productImg1 from '@/assets/images/products/1.png';
 import productImg2 from '@/assets/images/products/2.png';
 import productImg3 from '@/assets/images/products/3.png';
-import productImg4 from '@/assets/images/products/3.png';
-import productImg5 from '@/assets/images/products/3.png';
+import productImg4 from '@/assets/images/products/4.png';
+import productImg5 from '@/assets/images/products/5.png';
 
 export const productsMock = [
   {

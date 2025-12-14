@@ -1,4 +1,4 @@
-import './PostList.scss';
+import './ProductList.scss';
 import classNames from 'classnames';
 import ProductCard from '@/components/ProductCard';
 
