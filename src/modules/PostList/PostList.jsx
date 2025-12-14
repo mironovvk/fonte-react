@@ -4,11 +4,11 @@ import PostCard from '@/components/PostCard';
 
 const PostList = ({ className, cards }) => {
   return (
-    <section className={classNames('post-list', className, 'container')}>
+    <div className={classNames('post-list', className)}>
       {cards.map(({ id, theme, image, title, date, text }) => (
         <PostCard theme={theme} image={image} title={title} date={date} text={text} key={id} />
       ))}
-    </section>
+    </div>
   );
 };
 
