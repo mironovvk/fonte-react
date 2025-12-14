@@ -1,3 +1,63 @@
 .product-card {
+  position: relative;
+  width: 1040px;
+  height: 280px;
+  padding: fluid(36, 30) fluid(47, 30) fluid(47, 30);
 
+
+  &__bg {
+    position: absolute;
+    inset: 0;
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    filter: grayscale(100%);
+    transition: filter 0.3s ease;
+
+    /* ЦВЕТНОЙ OVERLAY */
+    &::after {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background-color: rgba(39, 38, 40, 0.4); // #272628 @ 40%
+      transition: background-color 0.3s ease;
+    }
+  }
+
+  /* ХОВЕР */
+  &:hover .product-card__bg {
+    filter: grayscale(0%);
+  }
+
+  &:hover .product-card__bg::after {
+    background-color: rgba(39, 38, 40, 0.1);
+  }
+
+  /* КОНТЕНТ */
+  &__content {
+    position: relative;
+    z-index: 1;
+    color: #fff;
+
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  &__title {
+    font-size: 24px;
+    font-weight: 600;
+  }
+
+  &__text {
+    @include fluid-text(16, 12);
+    max-width: 550px;
+    line-height: 1.4;
+  }
+
+  &__button {
+    max-width: 160px;
+  }
 }
