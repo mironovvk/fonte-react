@@ -1,11 +1,14 @@
 import './BlogPage.scss';
 import PostList from '@/modules/PostList';
 import { postsMock } from '@/mocks/posts.mock.js';
+import Section from "@/components/Section/index.js";
 
 const BlogPage = () => {
   return (
     <>
-      <PostList cards={postsMock} />
+      <Section title="Блог">
+        <PostList cards={postsMock} />
+      </Section>
     </>
   );
 };

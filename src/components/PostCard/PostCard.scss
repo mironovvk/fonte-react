@@ -30,7 +30,7 @@
     text-decoration: none;
   }
 
-  @include mobile-s {
+  @include mobile {
     flex-direction: column;
     justify-content: center;
     align-items: center;
