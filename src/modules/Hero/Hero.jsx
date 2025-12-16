@@ -1,6 +1,7 @@
 import './Hero.scss';
 import { useState } from 'react';
 import { productsMock } from '@/mocks/product.mock.js';
+import SliderButton from '@/ui/SliderButton/index.js';
 
 const Hero = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -18,13 +19,11 @@ const Hero = () => {
   return (
     <section className="hero">
       <div className="hero__bg" style={{ backgroundImage: `url(${image})` }} />
-      <button className="hero__button hero__button--prev" type="button" onClick={handlePrev}>
-        Стрелка назад
-      </button>
+      <div className="hero_actions">
+        <SliderButton directionLeft onClick={handlePrev} />
+        <SliderButton onClick={handleNext} />
+      </div>
 
-      <button className="hero__button hero__button--next" type="button" onClick={handleNext}>
-        Стрелка вперед
-      </button>
       <div className="hero__content">
         <h3 className="hero__title">{title}</h3>
         <p className="hero__text">{text}</p>
