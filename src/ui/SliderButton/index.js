@@ -1,3 +1,3 @@
-import SliderButton from './SliderButton'
+import SliderButton from './SliderButton';
 
-export default SliderButton
+export default SliderButton;
