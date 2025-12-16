@@ -1,3 +1,13 @@
 .slider-button {
+  @include flex-center();
 
+  width: 30px;
+  height: 30px;
+  background: transparent;
+  border: none;
+  color: var(--color-white-transparent-01);
+
+  &:hover {
+    color: var(--color-orange);
+  }
 }
