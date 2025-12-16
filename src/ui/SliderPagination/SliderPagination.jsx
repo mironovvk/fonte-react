@@ -1,10 +1,10 @@
-import './SliderPagination.scss'
+import './SliderPagination.scss';
 import classNames from 'classnames';
 
-const SliderPagination = ({count, activeIndex, onChange, className}) => {
+const SliderPagination = ({ count, activeIndex, onChange, className }) => {
   return (
     <div className={classNames('slider-pagination', className)}>
-      {Array.from({length: count}).map((_, index) => (
+      {Array.from({ length: count }).map((_, index) => (
         <button
           key={index}
           type="button"
@@ -18,4 +18,4 @@ const SliderPagination = ({count, activeIndex, onChange, className}) => {
   );
 };
 
-export default SliderPagination
+export default SliderPagination;

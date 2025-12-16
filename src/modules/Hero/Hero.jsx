@@ -3,6 +3,7 @@ import { useState } from 'react';
 import { heroMock } from '@/mocks/hero.mock.js';
 import SliderButton from '@/ui/SliderButton';
 import Button from '@/ui/Button';
+import SliderPagination from '@/ui/SliderPagination';
 
 const Hero = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -31,6 +32,12 @@ const Hero = () => {
           <p className="hero__text">{text}</p>
           <Button className="hero__content-button" title="Подробнее" />
         </div>
+        <SliderPagination
+          className="hero__pagination"
+          count={heroMock.length}
+          activeIndex={currentSlide}
+          onChange={setCurrentSlide}
+        />
       </div>
     </section>
   );

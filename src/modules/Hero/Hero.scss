@@ -1,6 +1,9 @@
 .hero {
   position: relative;
   z-index: 10;
+  display: flex;
+  align-items: center;
+  justify-content: start;
   width: 100vw;
   height: 600px;
   margin: -77px 0 57px;
@@ -29,12 +32,15 @@
   &__actions {
     @include flex-center;
 
+    position: absolute;
+    top: -50px;
     column-gap: 15px;
   }
 
   &__content {
     position: relative;
     z-index: 1;
+    height: 320px;
     display: flex;
     flex-direction: column;
     max-width: 500px;
@@ -51,5 +57,10 @@
 
   &__text {
     @include fluid-text(20, 14);
+  }
+
+  &__pagination {
+    position: absolute;
+    bottom: -50px;
   }
 }
