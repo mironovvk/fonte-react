@@ -5,7 +5,7 @@ import ProductPage from '@/pages/ProductPage/index.js';
 
 const Content = () => {
   return (
-    <main className="content container">
+    <main className="content">
       <Routes>
         <Route path="/" element={<div>Главная</div>} />
         <Route path="/about" element={<div>О нас</div>} />

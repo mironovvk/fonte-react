@@ -1,4 +1,6 @@
 .header {
+  position: relative;
+  z-index: 15;
   padding: fluid(40, 30) fluid(121, 30);
   background-color: var(--color-dark-02);
 
