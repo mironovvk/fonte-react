@@ -10,4 +10,8 @@
   &:hover {
     color: var(--color-orange);
   }
+
+  &.direction-right {
+    transform: rotate(180deg);
+  }
 }
