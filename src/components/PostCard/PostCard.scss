@@ -7,7 +7,17 @@
 
   &.on-slider {
     flex-direction: column;
-    height: 100%;
+
+    .card__image {
+      height: 230px;
+      object-fit: cover;
+    }
+
+    .card__content {
+      justify-content: space-between;
+      height: 130px;
+      object-fit: cover;
+    }
   }
 
   &__image {

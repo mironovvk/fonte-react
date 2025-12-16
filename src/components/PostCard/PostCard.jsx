@@ -12,7 +12,7 @@ const PostCard = ({ className = '', theme, image, title, date, text, onSlider = 
       <img className="card__image" src={image} alt={title} />
       {onSlider ? (
         <div className="card__content">
-          <h3 className="h4">{title}</h3>
+          <h3 className="card__title h5">{title}</h3>
           <a className="card__link" href="/">
             Подробнее <IconArrowLink />
           </a>
