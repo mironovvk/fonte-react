@@ -1,13 +1,14 @@
 import './Content.scss';
 import { Routes, Route } from 'react-router-dom';
-import BlogPage from '@/pages/BlogPage/index.js';
-import ProductPage from '@/pages/ProductPage/index.js';
+import BlogPage from '@/pages/BlogPage';
+import ProductPage from '@/pages/ProductPage';
+import HomePage from '@/pages/HomePage';
 
 const Content = () => {
   return (
     <main className="content">
       <Routes>
-        <Route path="/" element={<div>Главная</div>} />
+        <Route path="/" element={<HomePage />} />
         <Route path="/about" element={<div>О нас</div>} />
         <Route path="/blog" element={<BlogPage />} />
         <Route path="/products" element={<ProductPage />} />
