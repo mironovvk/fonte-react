@@ -1,0 +1,17 @@
+.slider-pagination {
+  display: flex;
+  gap: 18px;
+
+  &__dot {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: var(--color-white-transparent-01);
+    border: none;
+    cursor: pointer;
+
+    &.is-active {
+      background: var(--color-orange);
+    }
+  }
+}
