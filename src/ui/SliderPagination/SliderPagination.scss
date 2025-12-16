@@ -5,9 +5,9 @@
   &__dot {
     width: 12px;
     height: 12px;
-    border-radius: 50%;
     background: var(--color-white-transparent-01);
     border: none;
+    border-radius: 50%;
     cursor: pointer;
 
     &.is-active {

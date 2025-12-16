@@ -2,7 +2,6 @@ import heroImg1 from '@/assets/images/heroSlides/image-1.jpg';
 import heroImg2 from '@/assets/images/heroSlides/image-2.jpg';
 import heroImg3 from '@/assets/images/heroSlides/image-3.jpg';
 import heroImg4 from '@/assets/images/heroSlides/image-4.jpg';
-import heroImg5 from '@/assets/images/heroSlides/image-5.jpg';
 
 export const heroMock = [
   {
