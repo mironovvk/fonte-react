@@ -1,0 +1,16 @@
+.contact-map {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 8px;
+
+  &__iframe {
+    border: 0;
+    width: 100%;
+  }
+
+  &__text {
+    font-size: 14px;
+    color: var(--color-white);
+  }
+}
