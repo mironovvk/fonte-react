@@ -1,13 +1,14 @@
 import './AboutSection.scss';
 import Section from '@/components/Section/index.js';
 import Button from '@/ui/Button';
+import aboutImg from '@/assets/images/about.jpg';
 
 const AboutSection = () => {
   return (
     <Section title="О нас">
       <div className="about-section">
         <div className="about-section__image">
-          {<img src="@/assets/images/about.jpg" alt="О нас" />}
+          {<img src={aboutImg} alt="О нас" />}
         </div>
         <div className="about-section__content">
           <div className="about-section__text">
