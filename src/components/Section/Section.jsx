@@ -8,7 +8,7 @@ const Section = ({ title, children, hasLine, directionLineRight }) => {
   return (
     <section className="section container">
       <div className="section__header">
-        <h3 className="section__header-title">{title}</h3>
+        {title && <h3 className="section__header-title">{title}</h3>}
       </div>
       <div className="section__body">{children}</div>
 
