@@ -1,0 +1,20 @@
+.about-section {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	column-gap: 50px;
+
+	&__image {
+		flex: 1;
+	}
+	
+	&__content {
+		gap: 20px;
+		flex: 1;
+	}
+	
+	&__text {
+		margin-bottom: 40px;
+		line-height: 2;
+	}
+}
