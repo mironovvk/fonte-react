@@ -1,13 +1,13 @@
 import './HomePage.scss';
 import Hero from '@/modules/Hero';
 import BlogSection from '@/modules/BlogSection';
-import AboutSection from '@/modules/AboutSection';
+import TeamSection from '@/modules/TeamSection';
 
 const HomePage = () => {
   return (
     <>
       <Hero />
-      <AboutSection />
+      <TeamSection />
       <BlogSection />
     </>
   );
