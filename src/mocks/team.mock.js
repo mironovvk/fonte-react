@@ -1,7 +1,7 @@
 import erjanImg from '@/assets/images/team/erjan.png';
 import oljasImg from '@/assets/images/team/oljas.png';
 
-export const teamMembersMock = [
+export const teamMock = [
   {
     id: 1,
     image: erjanImg,
