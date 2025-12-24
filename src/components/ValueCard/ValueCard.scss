@@ -1,4 +1,4 @@
-.team-card {
+.value-card {
 
   &__content {
     position: relative;
@@ -11,8 +11,8 @@
   }
 
   &__image {
-    max-width: 50px;
-    max-height: 50px;
+    max-width: 160px;
+    max-height: 160px;
   }
 
   &__inner {
@@ -28,8 +28,8 @@
   }
 
   &__text {
-    text-align: center;
     line-height: 1.4;
     font-size: 14px;
+    color:#fff5;
   }
 }

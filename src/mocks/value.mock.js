@@ -3,7 +3,7 @@ import valueIcon2 from '@/assets/icons/worth/chart.svg';
 import valueIcon3 from '@/assets/icons/worth/briefcase.svg';
 import valueIcon4 from '@/assets/icons/worth/handshake.svg';
 
-export const teamMock = [
+export const valueMock = [
   {
     id: 1,
     image: valueIcon1,
