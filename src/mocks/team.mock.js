@@ -1,5 +1,5 @@
-import heroImg1 from '@/assets/images/heroSlides/image-1.jpg';
-import heroImg2 from '@/assets/images/heroSlides/image-2.jpg';
+import heroImg1 from '@/assets/images/team/erjan.png';
+import heroImg2 from '@/assets/images/team/oljas.png';
 
 export const teamMock = [
   {
