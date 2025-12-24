@@ -1,41 +1,41 @@
-import erjanImg from '@/assets/images/team/erjan.png';
-import oljasImg from '@/assets/images/team/oljas.png';
+import heroImg1 from '@/assets/images/heroSlides/image-1.jpg';
+import heroImg2 from '@/assets/images/heroSlides/image-2.jpg';
 
-export const teamMembersMock = [
+export const teamMock = [
   {
     id: 1,
-    image: erjanImg,
-    name: 'Ержан Мусин',
-    position: 'CEO',
+    image: heroImg1,
+    title: 'Ержан Мусин',
+    text: 'CEO',
   },
   {
     id: 2,
-    image: oljasImg,
-    name: 'Олжас Укенов',
-    position: 'CFO',
+    image: heroImg2,
+    title: 'Олжас Уеков',
+    text: 'CFO',
   },
   {
     id: 3,
-    image: erjanImg,
-    name: 'Ержан Мусин',
-    position: 'CEO',
+    image: heroImg1,
+    title: 'Ержан Мусин',
+    text: 'CEO',
   },
   {
     id: 4,
-    image: oljasImg,
-    name: 'Олжас Укенов',
-    position: 'CFO',
+    image: heroImg2,
+    title: 'Олжас Уеков',
+    text: 'CFO',
   },
   {
     id: 5,
-    image: erjanImg,
-    name: 'Ержан Мусин',
-    position: 'CEO',
+    image: heroImg1,
+    title: 'Ержан Мусин',
+    text: 'CEO',
   },
   {
     id: 6,
-    image: oljasImg,
-    name: 'Олжас Укенов',
-    position: 'CFO',
+    image: heroImg2,
+    title: 'Олжас Уеков',
+    text: 'CFO',
   },
 ];
