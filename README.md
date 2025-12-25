@@ -1,16 +1,86 @@
-# React + Vite
+# Fonte
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Fonte** — это демонстрационное веб‑приложение инвестиционной платформы, предназначенное для иллюстрации архитектуры, интерфейсов и рабочих подходов при построении современных frontend‑SPA проектов.  
+Проект фокусируется на практической демонстрации качественной структуры, согласованности компонентов и использования популярного JavaScript‑стека.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Макет дизайна (Figma)
 
-## React Compiler
+Дизайн интерфейсов создан в Figma и доступен по ссылке ниже. Макет содержит ключевые экраны и пользовательские потоки, которые отражают логику приложения.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+**Ссылка на макет:**  
+[Открыть макет в Figma](https://www.figma.com/design/mdwsSS1sHJ6EHS56oWn8RB/Untitled?node-id=0-1&t=MoAOf1AfWqtkZQIS-1)
 
-## Expanding the ESLint configuration
+> Примечание: для просмотра макета потребуется доступ к Figma. Если макет открыт для просмотра, любой участник сможет перейти по ссылке и изучить интерфейс.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## Технологический стек
+
+Проект реализован с использованием следующих инструментов и библиотек:
+
+- **React 19**
+- **React DOM 19**
+- **React Router 7**
+- **Vite 7**
+- **Sass (SCSS)**
+- **PostCSS**
+- **ESLint**
+- **Prettier**
+- **Stylelint**
+
+---
+
+## Быстрый старт
+
+### Установка зависимостей
+
+```bash
+npm install
+````
+
+### Запуск в режиме разработки
+
+```bash
+npm run dev
+```
+
+После запуска приложение будет доступно по адресу, указанному в терминале (обычно [http://localhost:5173](http://localhost:5173)).
+
+---
+
+## Сборка проекта
+
+### Продакшн‑сборка
+
+```bash
+npm run build
+```
+
+### Предпросмотр production‑сборки
+
+```bash
+npm run preview
+```
+
+---
+
+## Структура проекта
+
+```
+src/
+  assets/        # Изображения, иконки, шрифты
+  components/    # Переиспользуемые UI‑компоненты
+  modules/       # Функциональные модули и секции
+  pages/         # Страницы приложения
+  styles/        # Глобальные стили
+  mocks/         # Моковые данные
+```
+
+---
+
+## Разработчики
+
+* **Миронов Кирилл**
+* **Артём Соколов**

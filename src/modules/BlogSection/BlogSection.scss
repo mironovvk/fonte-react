@@ -1,0 +1,15 @@
+.blog-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 25px;
+
+  &__slides {
+    @include fluid-text(20, 16);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+  }
+}

@@ -1,0 +1,17 @@
+.section {
+  position: relative;
+}
+
+.contact-section {
+  display: flex;
+  align-items: start;
+  position: relative;
+  row-gap: 30px;
+  column-gap: 50px;
+}
+
+.contact-form {
+  position: absolute;
+  top: 0;
+  right: var(--container-padding-x);
+}

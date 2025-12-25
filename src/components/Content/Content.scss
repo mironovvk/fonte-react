@@ -1,0 +1,6 @@
+.content {
+  display: flex;
+  flex-direction: column;
+  padding-block: fluid(100, 50);
+  row-gap: var(--section-padding-y);
+}

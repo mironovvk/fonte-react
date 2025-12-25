@@ -1,0 +1,26 @@
+.textarea {
+  max-width: 100%;
+  padding: fluid(20, 15);
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--color-white);
+  background-color: var(--color-dark-02);
+  border: 1px solid var(--color-dark-02);
+  outline: none;
+  resize: none;
+
+  &::placeholder {
+    color: var(--color-white-transparent-02);
+  }
+
+  &:hover {
+    background-color: var(--color-dark-03);
+    border: var(--border);
+  }
+
+  &:focus-visible {
+    background-color: var(--color-orange-transparent-02);
+    border: var(--border);
+    caret-color: var(--color-white);
+  }
+}
